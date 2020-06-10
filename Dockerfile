@@ -8,6 +8,9 @@ WORKDIR /usr/src/app
 # package.json and package-lock.json
 COPY package*.json ./
 
+# Install Ionic
+RUN npm install -g @ionic/cli
+
 # Install dependencies
 RUN npm install
 
