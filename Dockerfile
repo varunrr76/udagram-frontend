@@ -22,6 +22,3 @@ EXPOSE 8100
 
 # Define the Docker image's behavior at runtime
 RUN ionic build
-
-# Define the Docker image's behavior at runtime
-RUN ionic serve
